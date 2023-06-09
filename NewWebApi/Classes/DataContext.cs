@@ -28,6 +28,7 @@ namespace WebApi.Classes
 		public virtual DbSet<Order>? Order { get; set; }
 		public virtual DbSet<Order_Product>? OrderProduct { get; set; }
         public virtual DbSet<State>? State { get; set; }
-
+		public virtual DbSet<Supply>? Supply { get; set; }
+		public virtual DbSet<Supply_Product>? SupplyProduct { get; set; }
     }
 }
