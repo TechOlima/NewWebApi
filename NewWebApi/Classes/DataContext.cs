@@ -25,6 +25,9 @@ namespace WebApi.Classes
         public virtual DbSet<Photo>? Photo { get; set; }        
         public virtual DbSet<StoneType>? StoneType { get; set; }        
         public virtual DbSet<GenderType>? GenderType { get; set; }
+		public virtual DbSet<Order>? Order { get; set; }
+		public virtual DbSet<Order_Product>? OrderProduct { get; set; }
+        public virtual DbSet<State>? State { get; set; }
 
     }
 }
